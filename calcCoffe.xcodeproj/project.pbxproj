@@ -103,8 +103,8 @@
 				E9B3166326E223F000257CE5 /* SceneDelegate.swift */,
 				E9B3166526E223F000257CE5 /* ViewController.swift */,
 				E9B3166726E223F000257CE5 /* Main.storyboard */,
-				E9B3166A26E2240300257CE5 /* Assets.xcassets */,
 				E9B3166C26E2240300257CE5 /* LaunchScreen.storyboard */,
+				E9B3166A26E2240300257CE5 /* Assets.xcassets */,
 				E9B3166F26E2240300257CE5 /* Info.plist */,
 			);
 			path = calcCoffe;
