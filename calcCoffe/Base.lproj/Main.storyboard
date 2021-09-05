@@ -144,17 +144,26 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ROA-0h-v02">
+                                <rect key="frame" x="20" y="39" width="49" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="swicher:" destination="BYZ-38-t0r" eventType="valueChanged" id="1Ki-CZ-iXx"/>
+                                </connections>
+                            </switch>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <connections>
+                        <outlet property="background" destination="4Vq-X5-cYT" id="Rkj-iL-FQO"/>
                         <outlet property="capp" destination="2Q1-as-Yye" id="PGm-7x-tlg"/>
                         <outlet property="espressoLabel" destination="GY6-Gu-8DG" id="yr7-eg-Ajo"/>
                         <outlet property="gramCoffe" destination="jZx-GZ-YSD" id="nlG-JX-67Z"/>
                         <outlet property="latte" destination="2aJ-EW-L4F" id="eMQ-I1-cGq"/>
                         <outlet property="milkCapp" destination="7Gt-pm-UIo" id="UAA-jz-hIF"/>
                         <outlet property="milkLatte" destination="lpj-Oq-Qkx" id="ev4-GZ-WWb"/>
+                        <outlet property="swich" destination="ROA-0h-v02" id="TWj-nu-VuP"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

@@ -9,6 +9,9 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var swich: UISwitch!
+    @IBOutlet weak var background: UIImageView!
+  
     @IBOutlet weak var gramCoffe: UITextField!
    
     @IBOutlet weak var espressoLabel: UILabel!
@@ -21,7 +24,14 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+    }
+   
+    @IBAction func swicher(_ sender: UISwitch) {
+        if swich.isOn{
+            background.isHidden = false
+        }else{
+            background.isHidden = true
+        }
     }
     
         @IBAction func button(_ sender: UIButton){
